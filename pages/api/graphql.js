@@ -1,40 +1,8 @@
-import { ApolloServer, gql } from 'apollo-server-micro'
-import { makeExecutableSchema } from 'graphql-tools'
+import { ApolloServer } from 'apollo-server-micro'
 import { MongoClient } from 'mongodb'
+import { schema } from '../../apollo/schema'
 
 require('dotenv').config()
-
-const typeDefs = gql`
-  type User {
-    id: ID!
-    firstName: String!
-    lastName: String!
-    blog: String
-    stars: Int
-  }
-
-  type Query {
-    users: [User]!
-  }
-`
-
-const resolvers = {
-  Query: {
-    users(_parent, _args, _context, _info) {
-      return _context.db
-        .collection('users')
-        .findOne()
-        .then((data) => {
-          return data.users
-        })
-    },
-  },
-}
-
-const schema = makeExecutableSchema({
-  typeDefs,
-  resolvers,
-})
 
 let db
 
