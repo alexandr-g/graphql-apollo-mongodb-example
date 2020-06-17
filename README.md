@@ -7,6 +7,7 @@ This is a companion source code for building Apollo GraphQL API with MongoDB con
 I've setup a step-by-step guide on how to setup the project from scratch:
 
 [[Part 1] Server-side: Setting up GraphQL API with MongoDB and Apollo Server for a NextJS app](https://grischuk.de/setting-up-graph-ql-api-with-mongo-db-and-apollo-server-for-a-next-js-app)
+
 [[Part 2] Client-side: How to setup Apollo Client in order to perform GraphQL queries with NextJS](https://grischuk.de/how-to-setup-apollo-client-in-order-to-perform-graph-ql-queries-with-next-js)
 
 ## Deployed project preview
