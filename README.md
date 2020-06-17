@@ -1,12 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# An example of Apollo Client/GraphQL API with MongoDB connection for NextJS app
+
+This is a companion source code for building Apollo GraphQL API with MongoDB connection for [Next.js](https://nextjs.org/) project.
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
