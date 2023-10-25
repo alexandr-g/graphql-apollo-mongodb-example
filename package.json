@@ -21,7 +21,7 @@
     "graphql-tag": "^2.10.3",
     "graphql-tools": "^6.0.8",
     "mongodb": "^3.5.8",
-    "next": "9.4.4",
+    "next": "13.5.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
